@@ -1,3 +1,8 @@
+---
+name: github-readme-html-architect
+description: Generates visually polished, web-grade GitHub README.md files using GitHub-sanitized HTML layouts, multi-column grids, and interactive collapsible sections. Use when creating or updating repository documentation.
+---
+
 # Skill: GitHub README HTML Architect
 
 ## 1. Role & Objective
