@@ -1,63 +1,84 @@
 <div align="center">
 
-# Kingsley
+<p><sub>KINGSLEY · HONG KONG</sub></p>
 
-**Frontend / Full-stack Engineer** · Hong Kong
-
-Building practical tools and useful software with **Rust**, **Python**, and **TypeScript**.  
-Focused on clean code, real problems, and open-source work.
-
-[![GitHub](https://img.shields.io/badge/GitHub-kingsleyhk0323-181717?logo=github)](https://github.com/kingsleyhk0323)
+<h1>Kingsley</h1>
+<p><strong>Frontend / Full-stack Engineer</strong></p>
+<p>Building practical tools with Rust, Python, and TypeScript.</p>
 
 </div>
 
----
+<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-### Focus
+<h2>Focus</h2>
 
-| Area | Current |
-|------|---------|
-| **Primary** | Rust · Systems & desktop tools |
-| **Secondary** | Python · TypeScript |
-| **Also use** | JavaScript · HTML/CSS · C++ · C# |
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+<p align="center"><strong>Rust</strong></p>
+<p align="center"><sub>Primary focus</sub></p>
+</td>
+<td width="33%" valign="top">
+<p align="center"><strong>Python</strong></p>
+<p align="center"><sub>Desktop & tools</sub></p>
+</td>
+<td width="33%" valign="top">
+<p align="center"><strong>TypeScript</strong></p>
+<p align="center"><sub>Web & full-stack</sub></p>
+</td>
+</tr>
+</table>
 
----
+<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-### Featured Projects
+<h2>Featured Projects</h2>
 
-| Project | Description | Tech | Stars |
-|---------|-------------|------|-------|
-| **[GTAV_Mods_Manager](https://github.com/kingsleyhk0323/GTAV_Mods_Manager)** | Source-available GTA V mod manager for Legacy/Enhanced single-player, LSPDFR, and FiveM. Install, manage, and translate mods. | Rust | ⭐ 4 |
-| **[Multimedia_Downloader](https://github.com/kingsleyhk0323/Multimedia_Downloader)** | Cross-platform multimedia downloader & converter. Tauri desktop app with AI assistant + deployable web version. Powered by yt-dlp + ffmpeg. | Python | ⭐ 3 |
-| **[PixelPulse](https://github.com/kingsleyhk0323/PixelPulse)** | Windows screen-automation tool that watches for a target image or pixel color and triggers mouse/keyboard actions. | Python | ⭐ 1 |
-| **[Player_Club_Private_VPN](https://github.com/kingsleyhk0323/Player_Club_Private_VPN)** | High-performance gaming virtual network. Tauri + Rust desktop app that builds encrypted peer-to-peer virtual LANs for multiplayer gaming. | Rust | ⭐ 1 |
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/kingsleyhk0323/GTAV_Mods_Manager">GTAV_Mods_Manager</a></strong></p>
+<p>Source-available GTA V mod manager for Legacy/Enhanced single-player, LSPDFR, and FiveM. Install, manage, and translate mods.</p>
+<p><sub>Rust · ⭐ 4</sub></p>
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/kingsleyhk0323/Multimedia_Downloader">Multimedia_Downloader</a></strong></p>
+<p>Cross-platform multimedia downloader & converter. Tauri desktop app with AI assistant + deployable web version. Powered by yt-dlp + ffmpeg.</p>
+<p><sub>Python · ⭐ 3</sub></p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/kingsleyhk0323/PixelPulse">PixelPulse</a></strong></p>
+<p>Windows screen-automation tool that watches for a target image or pixel color and triggers mouse/keyboard actions.</p>
+<p><sub>Python · ⭐ 1</sub></p>
+</td>
+<td width="50%" valign="top">
+<p><strong><a href="https://github.com/kingsleyhk0323/Player_Club_Private_VPN">Player_Club_Private_VPN</a></strong></p>
+<p>High-performance gaming virtual network. Tauri + Rust desktop app that builds encrypted peer-to-peer virtual LANs for multiplayer gaming.</p>
+<p><sub>Rust · ⭐ 1</sub></p>
+</td>
+</tr>
+</table>
 
----
+<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-### What I'm Working On
+<h2>Stats</h2>
 
-- Improving **GTAV_Mods_Manager** (currently focused on Legacy single-player and LSPDFR)
-- Building practical desktop tools with Tauri + Rust
-- Exploring better ways to ship useful software in public
+<table width="100%">
+<tr>
+<td width="25%" align="center"><p><strong>21</strong><br><sub>repos</sub></p></td>
+<td width="25%" align="center"><p><strong>12</strong><br><sub>stars</sub></p></td>
+<td width="25%" align="center"><p><strong>982</strong><br><sub>contributions</sub></p></td>
+<td width="25%" align="center"><p><strong>3</strong><br><sub>followers</sub></p></td>
+</tr>
+</table>
 
----
+<p align="center"><sub>2-day current streak · 100 active days</sub></p>
 
-### Stats
+<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
 
-| Repos | Stars | Contributions | Followers |
-|-------|-------|---------------|-----------|
-| 21 | 12 | 982 | 3 |
-
-*2-day current streak · 100 active days*
-
----
-
-### Let's Build Something Useful
-
-I like working with people who care about craft, context, and shipping the useful version.
-
-**GitHub:** [github.com/kingsleyhk0323](https://github.com/kingsleyhk0323)
-
----
-
-<sub>Feel free to open an issue, start a discussion, or star a repo if something looks interesting.</sub>
+<div align="center">
+<h2>Let's build something useful</h2>
+<p>I like working with people who care about craft, context, and shipping the useful version.</p>
+<p><a href="https://github.com/kingsleyhk0323">GitHub</a></p>
+</div>
