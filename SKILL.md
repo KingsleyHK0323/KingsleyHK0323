@@ -1,6 +1,6 @@
 ---
 name: project-status-briefing
-description: Transform raw notes, fragmented project updates, or technical status into a rigorous, risk-weighted executive briefing. Use automatically when the user asks to create a status report, project update, progress report, summary briefing, or pastes raw work notes for structuring.
+description: Transform raw notes, fragmented project updates, or technical status into a rigorous, risk-weighted executive briefing. Use automatically when the user asks to create a status report, project update, progress report, summary briefing, or pastes raw work notes for structuring. Make By KingsleyHK0323
 ---
 
 # Project Status Briefing
