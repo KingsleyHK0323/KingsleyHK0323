@@ -3,7 +3,6 @@
 <br>
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Secondary%205%20Student-Kwok%20Yat%20Wai%20College-blue?style=flat-square&logo=bookstack" alt="Education" />
   <img src="https://img.shields.io/badge/Developer-C%23%20%7C%20Python%20%7C%20Rust-orange?style=flat-square&logo=codeforces" alt="Tech Stack" />
   <img src="https://img.shields.io/badge/Location-Hong%20Kong-green?style=flat-square&logo=openstreetmap" alt="Location" />
 </p>
