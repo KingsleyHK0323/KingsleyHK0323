@@ -1,3 +1,12 @@
+### GitHub Metrics
+
+<p align="left">
+  <img height="165em" src="https://streak-stats.demolab.com?user=KingsleyHK0323&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  <img height="165em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KingsleyHK0323&theme=tokyonight" alt="GitHub Summary" />
+</p>
+
+---
+
 # KingsleyHK0323
 
 <p align="left">
@@ -63,13 +72,4 @@ Software developer focused on system utilities, runtime game modifications, netw
   <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
   <img src="https://img.shields.io/badge/Codex-10A37F?style=flat-square&logo=openai&logoColor=white" alt="Codex" />
   <img src="https://img.shields.io/badge/Claude%20Code-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude Code" />
-</p>
-
----
-
-### GitHub Metrics
-
-<p align="left">
-  <img height="165em" src="https://streak-stats.demolab.com?user=KingsleyHK0323&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
-  <img height="165em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=KingsleyHK0323&theme=tokyonight" alt="GitHub Summary" />
 </p>
