@@ -10,6 +10,13 @@ Software developer focused on system utilities, runtime game modifications, netw
 
 ---
 
+### Connect
+
+* **Discord Community:** [Join Server](https://discord.gg/aaUQVJeCgC)
+* **YouTube Channel:** [@kingsleyhk-0323](https://www.youtube.com/@kingsleyhk-0323)
+
+---
+
 ### Core Domains
 
 * **Game Modding & Runtime Patching:** Developing custom engine overrides, simulation optimizations, and automated mod management utilities using C# (Harmony patching) and Lua.
@@ -56,6 +63,4 @@ Software developer focused on system utilities, runtime game modifications, netw
 ### GitHub Metrics
 
 <p align="left">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=KingsleyHK0323&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KingsleyHK0323&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</p>
+  <img height="165em" src="
