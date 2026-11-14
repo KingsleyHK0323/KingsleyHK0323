@@ -37,11 +37,21 @@ Software developer focused on system utilities, runtime game modifications, netw
 
 ### Featured Projects
 
+#### Tools & Utilities
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[Multimedia_Downloader](https://github.com/KingsleyHK0323/Multimedia_Downloader)** | Command-line / desktop utility for fetching and processing online audio and video streams. | `Python` `FFmpeg` |
+| **[WiFi_Speed_Test](https://github.com/KingsleyHK0323/WiFi_Speed_Test)** | Lightweight network diagnostic tool for measuring connection throughput and latency. | `Python` |
+| **[PDF_Tool](https://github.com/KingsleyHK0323/PDF_Tool)** | Document processing utility for merging, splitting, and manipulating PDF files locally. | `Python` |
+| **[Disk_Speed_Tester](https://github.com/KingsleyHK0323/Disk_Speed_Tester)** | Storage benchmarking utility for evaluating sequential and random read/write performance. | `C#` / `C++` |
+
+#### Game Modding & Automation
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
 | **[GTAV_Mods_Manager](https://github.com/KingsleyHK0323/GTAV_Mods_Manager)** | Automated file installer and manager for single-player script modifications, handling archive parsing and target directory detection. | `C#` `.NET` |
-| **[WiFi_Speed_Test](https://github.com/KingsleyHK0323/WiFi_Speed_Test)** | Lightweight network diagnostic utility for measuring connection throughput and latency. | `Python` |
-| **Unlimited City Engine (UCE)** | Runtime simulation modifier utilizing Harmony patches to bypass infrastructure constraints and optimize transit logic. | `C#` `Harmony` |
+| **[Cities_Skylines_1_Modpack](https://github.com/KingsleyHK0323/Cities_Skylines_1_Modpack)** | Curated simulation modification suite and runtime patches for performance and gameplay enhancements. | `C#` `Harmony` |
+| **[Euro_Truck_Simulator_2_Auto_Pilot](https://github.com/KingsleyHK0323/Euro_Truck_Simulator_2_Auto_Pilot)** | Computer-vision / telemetry-based lane-keeping and cruise automation script for Euro Truck Simulator 2. | `Python` `OpenCV` |
+| **[Minecraft_Auto_Fishing](https://github.com/KingsleyHK0323/Minecraft_Auto_Fishing)** | Automated in-game fishing utility utilizing audio/visual cue detection and input simulation. | `Python` |
 
 ---
 
