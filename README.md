@@ -1,67 +1,45 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Markdown-Dark.svg" alt="Skill Icon" width="90" height="90" />
+# Project Status Briefing (AI Skill)
 
-  <h1>🏗️ GitHub README HTML Architect</h1>
+A professional decision-oriented reporting engine designed as an AI agent skill. It transforms raw project updates, technical notes, or fragmented operational status into a rigorous, risk-weighted executive briefing.
 
-  <p>
-    <b>A universal AI System Prompt & Skill for generating web-grade, HTML-styled GitHub READMEs.</b>
-  </p>
+---
 
-  <p>
-    <img src="https://img.shields.io/badge/AI_Compatibility-Universal-brightgreen?style=for-the-badge" alt="Universal Compatibility" />
-    <img src="https://img.shields.io/badge/Format-HTML_%2B_Markdown-blue?style=for-the-badge" alt="Format" />
-    <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="License" />
-  </p>
+## Features
 
-  <p>
-    <a href="#-overview">Overview</a> •
-    <a href="#-key-features">Key Features</a> •
-    <a href="#-installation--usage">Installation & Usage</a> •
-    <a href="#-supported-platforms">Supported Platforms</a> •
-    <a href="#-contributing">Contributing</a>
-  </p>
-</div>
+- **Conclusion First**: Eliminates conversational filler and leads directly with critical status indicators.
+- **Rigorous Inference**: Automatically bridges missing inputs using domain context without halting for clarification.
+- **Risk Quantization**: Explicitly categorizes inaction impacts into **[High] / [Medium] / [Low]** risk levels.
+- **Actionable Workarounds**: Delivers optimal solutions, fallback workarounds, and concrete next steps.
+- **Fully Structured**: Guarantees a strict 6-section output format for every execution.
 
-<hr />
+---
 
-## 📖 Overview
+## Output Structure
 
-Standard Markdown READMEs often look plain and fail to capture visitor attention within the critical first 10 seconds. **GitHub README HTML Architect** is a plug-and-play AI Skill designed to instruct LLMs (Claude, ChatGPT, Gemini, Cursor, and local models) to bypass basic Markdown lists and construct landing-page-style documentation using GitHub-sanitized HTML structures.
+The generated briefing strictly adheres to the following layout:
 
-> **Core Philosophy:** Maximize visual hierarchy, grid layouts, and interactive collapsible sections while strictly adhering to GitHub's security sanitizer rules.
+1. **Current Status**: 1–2 concise sentences summarizing the operational baseline.
+2. **Active Tasks**: Bulleted list of workstreams currently in progress.
+3. **Why It Matters**: Core business, architectural, or strategic driver.
+4. **Blockers & Issues**: Specific bottlenecks or technical errors encountered.
+5. **Impact of Inaction**: Risk level and quantified operational/financial consequences.
+6. **Alternative Solutions**: Option A (Optimal), Option B (Workaround), and Recommended Next Step.
 
-<hr />
+---
 
-## ✨ Key Features
+## Installation & Usage
 
-<table>
-  <tr>
-    <td width="50%">
-      <h3>🎨 HTML-First Layouts</h3>
-      <p>Enforces centered hero headers (<code>&lt;div align="center"&gt;</code>), multi-column feature grids via borderless <code>&lt;table&gt;</code> tags, and clean visual dividers.</p>
-    </td>
-    <td width="50%">
-      <h3>🛡️ Sanitizer-Safe Rules</h3>
-      <p>Strictly prohibits stripped tags (<code>&lt;script&gt;</code>, <code>&lt;style&gt;</code>, <code>&lt;iframe&gt;</code>) to guarantee zero broken rendering on GitHub.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>📂 Interactive Collapsibles</h3>
-      <p>Automatically wraps verbose configuration files, API parameters, and long code snippets inside <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> blocks.</p>
-    </td>
-    <td width="50%">
-      <h3>🤖 Model Agnostic</h3>
-      <p>Engineered with clear structural constraints that work reliably across frontier models and lightweight local LLMs (e.g., Qwen, Llama).</p>
-    </td>
-  </tr>
-</table>
+1. Place the `SKILL.md` file inside your AI agent's skill directory.
+2. Trigger the skill by providing raw notes, progress logs, or asking for a project status update.
 
-<hr />
+---
 
-## 🚀 Installation & Usage
+## Contributing
 
-### 1. Clone the Repository
-```bash
-git clone [https://github.com/SpaceSquare640/](https://github.com/SpaceSquare640/)<YOUR_REPO_NAME>.git
-cd <YOUR_REPO_NAME>
+Contributions, issues, and feature requests are welcome. Feel free to check the [issues page](../../issues).
+
+---
+
+## License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
