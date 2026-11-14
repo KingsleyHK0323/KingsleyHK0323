@@ -1,102 +1,63 @@
 <div align="center">
 
-<p><sub>WOW PROFILE · KINGSLEYHK0323 · LIVE</sub></p>
+# Kingsley
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=living-identity&label=Kingsley&v=wow-living-identity-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/hero?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=living-identity&label=Kingsley&v=wow-living-identity-1&mode=dark" width="100%" alt="Kingsley animated Living Identity portrait and ASCII name" />
-</picture>
-<p><strong>Frontend or full-stack engineer</strong> · Hong Kong</p>
-<p>Building useful things and sharing the work in public.</p>
-<p><a href="https://github.com/kingsleyhk0323">GitHub</a></p>
+**Frontend / Full-stack Engineer** · Hong Kong
+
+Building practical tools and useful software with **Rust**, **Python**, and **TypeScript**.  
+Focused on clean code, real problems, and open-source work.
+
+[![GitHub](https://img.shields.io/badge/GitHub-kingsleyhk0323-181717?logo=github)](https://github.com/kingsleyhk0323)
+
 </div>
 
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
+---
 
-<h2>Identity, with signal</h2>
+### Focus
 
-<table width="100%" style="display:table;width:100%;table-layout:fixed;">
-<tr>
-<td width="62%" valign="top"><p>Building useful things and sharing the work in public.</p><p><strong>Focus:</strong> `Rust` · `Python` · `TypeScript`</p><p><sub>Thoughtful collaboration, ambitious products, and useful open source.</sub></p></td>
-<td width="38%" valign="top"><p><code>LIVE SIGNAL</code></p><p><strong>21</strong> repos<br /><strong>12</strong> stars<br /><strong>982</strong> contributions<br /><strong>3</strong> followers</p></td>
-</tr>
-</table>
+| Area | Current |
+|------|---------|
+| **Primary** | Rust · Systems & desktop tools |
+| **Secondary** | Python · TypeScript |
+| **Also use** | JavaScript · HTML/CSS · C++ · C# |
 
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
+---
 
-<h2>What moves the work</h2>
+### Featured Projects
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/highlights?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&items=Rust%3A%3ACurrent%20focus%7CPython%3A%3AIn%20the%20build%20queue%7CTypeScript%3A%3AIn%20the%20build%20queue&variant=wow&v=wow-highlights-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/highlights?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&items=Rust%3A%3ACurrent%20focus%7CPython%3A%3AIn%20the%20build%20queue%7CTypeScript%3A%3AIn%20the%20build%20queue&variant=wow&v=wow-highlights-1&mode=dark" width="100%" alt="Kingsley animated profile highlights" />
-</picture>
+| Project | Description | Tech | Stars |
+|---------|-------------|------|-------|
+| **[GTAV_Mods_Manager](https://github.com/kingsleyhk0323/GTAV_Mods_Manager)** | Source-available GTA V mod manager for Legacy/Enhanced single-player, LSPDFR, and FiveM. Install, manage, and translate mods. | Rust | ⭐ 4 |
+| **[Multimedia_Downloader](https://github.com/kingsleyhk0323/Multimedia_Downloader)** | Cross-platform multimedia downloader & converter. Tauri desktop app with AI assistant + deployable web version. Powered by yt-dlp + ffmpeg. | Python | ⭐ 3 |
+| **[PixelPulse](https://github.com/kingsleyhk0323/PixelPulse)** | Windows screen-automation tool that watches for a target image or pixel color and triggers mouse/keyboard actions. | Python | ⭐ 1 |
+| **[Player_Club_Private_VPN](https://github.com/kingsleyhk0323/Player_Club_Private_VPN)** | High-performance gaming virtual network. Tauri + Rust desktop app that builds encrypted peer-to-peer virtual LANs for multiplayer gaming. | Rust | ⭐ 1 |
 
-<p align="center"><sub>Positioning is useful when the proof is close behind it.</sub></p>
+---
 
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
+### What I'm Working On
 
-<h2>The tools behind the signal</h2>
+- Improving **GTAV_Mods_Manager** (currently focused on Legacy single-player and LSPDFR)
+- Building practical desktop tools with Tauri + Rust
+- Exploring better ways to ship useful software in public
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-stack-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stack?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-stack-1&mode=dark" width="100%" alt="Kingsley animated technology stack" />
-</picture>
+---
 
-<p align="center"><sub>Rust · Python · TypeScript · JavaScript · HTML · CSS · C++ · C# · chosen for the work, not the trend</sub></p>
+### Stats
 
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
+| Repos | Stars | Contributions | Followers |
+|-------|-------|---------------|-----------|
+| 21 | 12 | 982 | 3 |
 
-<h2>Built, shipped, shared</h2>
+*2-day current streak · 100 active days*
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&repos=kingsleyhk0323%2FGTAV_Mods_Manager%2Ckingsleyhk0323%2FMultimedia_Downloader%2Ckingsleyhk0323%2FPixelPulse%2Ckingsleyhk0323%2FPlayer_Club_Private_VPN&variant=wow&v=wow-projects-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&repos=kingsleyhk0323%2FGTAV_Mods_Manager%2Ckingsleyhk0323%2FMultimedia_Downloader%2Ckingsleyhk0323%2FPixelPulse%2Ckingsleyhk0323%2FPlayer_Club_Private_VPN&variant=wow&v=wow-projects-1&mode=dark" width="100%" alt="Kingsley animated project constellation" />
-</picture>
+---
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&repos=kingsleyhk0323%2FGTAV_Mods_Manager%2Ckingsleyhk0323%2FMultimedia_Downloader%2Ckingsleyhk0323%2FPixelPulse%2Ckingsleyhk0323%2FPlayer_Club_Private_VPN&variant=wow-timeline&v=wow-timeline-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/projects?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&repos=kingsleyhk0323%2FGTAV_Mods_Manager%2Ckingsleyhk0323%2FMultimedia_Downloader%2Ckingsleyhk0323%2FPixelPulse%2Ckingsleyhk0323%2FPlayer_Club_Private_VPN&variant=wow-timeline&v=wow-timeline-1&mode=dark" width="100%" alt="Kingsley animated project launch timeline" />
-</picture>
+### Let's Build Something Useful
 
-<table width="100%">
-<tr>
-<td width="25%" valign="top"><p><strong><a href="https://github.com/KingsleyHK0323/GTAV_Mods_Manager">GTAV_Mods_Manager</a></strong></p><p>In development | Source-available GTA V mod manager for Legacy/Enhanced single-player, LSPDFR, and FiveM Client. Install, manage, and translate mods.</p><p><sub>Rust · ⭐ 4</sub></p></td>
-<td width="25%" valign="top"><p><strong><a href="https://github.com/KingsleyHK0323/Multimedia_Downloader">Multimedia_Downloader</a></strong></p><p>Cross-platform multimedia downloader &amp; converter — a Tauri desktop app with an AI assistant, plus a deployable web version. Powered by yt-dlp + ffmpeg</p><p><sub>Python · ⭐ 3</sub></p></td>
-<td width="25%" valign="top"><p><strong><a href="https://github.com/KingsleyHK0323/PixelPulse">PixelPulse</a></strong></p><p>Windows screen-automation tool: watches for a target image/pixel colour and triggers mouse/keyboard actions. License: https://github.com/SpaceSquare64</p><p><sub>Python · ⭐ 1</sub></p></td>
-<td width="25%" valign="top"><p><strong><a href="https://github.com/KingsleyHK0323/Player_Club_Private_VPN">Player_Club_Private_VPN</a></strong></p><p>A high-performance Gaming Virtual Network — Tauri + Rust desktop app that builds encrypted, peer-to-peer virtual LANs for multiplayer gaming.</p><p><sub>Rust · ⭐ 1</sub></p></td>
-</tr>
-</table>
+I like working with people who care about craft, context, and shipping the useful version.
 
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
+**GitHub:** [github.com/kingsleyhk0323](https://github.com/kingsleyhk0323)
 
-<h2>Momentum, made visible</h2>
+---
 
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-stats-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/stats?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-stats-1&mode=dark" width="100%" alt="Kingsley animated GitHub signal" />
-</picture>
-
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
-
-<h2>The trail behind the work</h2>
-
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-heatmap-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/heatmap?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-heatmap-1&mode=dark" width="100%" alt="Kingsley contribution energy field" />
-</picture>
-
-<p align="center"><sub>2 day current streak · 100 active days</sub></p>
-
-<p align="center"><sub>✦ ───────────────────────────── ✦</sub></p>
-
-<div align="center">
-<p><sub>KEEP THE SIGNAL MOVING</sub></p>
-<h2>Make something worth noticing</h2>
-<p>I like working with people who care about craft, context, and shipping the useful version.</p>
-<picture>
-  <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-social-1&mode=light" />
-  <img src="https://www.gitskins.com/api/section/social?username=kingsleyhk0323&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F157894869%3Fu%3D753a3ed9bf4f1e238b3305ab7331992a91f0e4ac%26v%3D4&variant=wow&v=wow-social-1&mode=dark" width="100%" alt="Kingsley contact links" />
-</picture>
-<p><a href="https://github.com/kingsleyhk0323">GitHub</a></p>
-<p><sub>Kingsley · Wow Profile generated with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
-</div>
+<sub>Feel free to open an issue, start a discussion, or star a repo if something looks interesting.</sub>
