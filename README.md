@@ -46,6 +46,7 @@ Software developer focused on system utilities, runtime game modifications, netw
 #### Tools & Utilities
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| **[Commands](https://github.com/KingsleyHK0323/KingsleyHK0323/tree/Commands)** | Curated collection of custom CLI commands, shell aliases, and workflow automation scripts. | `Shell` `PowerShell` `CLI` |
 | **[Multimedia_Downloader](https://github.com/KingsleyHK0323/Multimedia_Downloader)** | Command-line / desktop utility for fetching and processing online audio and video streams. | `Python` `FFmpeg` |
 | **[WiFi_Speed_Test](https://github.com/KingsleyHK0323/WiFi_Speed_Test)** | Lightweight network diagnostic tool for measuring connection throughput and latency. | `Python` |
 | **[PDF_Tool](https://github.com/KingsleyHK0323/PDF_Tool)** | Document processing utility for merging, splitting, and manipulating PDF files locally. | `Python` |
