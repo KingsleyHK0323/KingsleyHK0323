@@ -1,71 +1,69 @@
 <div align="center">
 
-# 🚀 Project Status Briefing
+# 🚀 Commands Branch
+### Automation scripts and utility command runners for development environments.
 
-**A professional decision-oriented reporting engine that transforms raw project updates into risk-weighted executive briefings.**
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PowerShell](https://img.shields.io/badge/Shell-PowerShell-5391FE?logo=powershell&logoColor=white)](https://microsoft.com/PowerShell)
+[![SkillSpector](https://img.shields.io/badge/Tool-SkillSpector-orange)](https://github.com/NVIDIA/SkillSpector)
 
-<p align="center">
-  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Status Active">
-  <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT License">
-  <img src="https://img.shields.io/badge/AI-Agent%20Skill-orange.svg" alt="AI Agent Skill">
-</p>
-
-[Features](#-key-features) • [Output Structure](#-output-structure) • [Installation](#-installation--quick-start) • [License](#-license)
+[Overview](#-overview) • [Features](#-features) • [Prerequisites](#-prerequisites) • [Commands Reference](#-commands-reference) • [License](#-license)
 
 </div>
 
 ---
 
-## 📌 Overview
+## 📖 Overview
 
-**Project Status Briefing** is an automated AI agent skill designed for engineering teams, project managers, and developers who need rigorous, zero-fluff project updates. It cuts through conversational filler and structures scattered progress notes into a clean, actionable 6-part executive briefing.
+A collection of automation workflows and environment maintenance scripts. This branch currently includes core maintenance and security scanning commands, with more utilities to be added as development continues.
 
-> *"Conclusion first, risk-quantified, and action-oriented."*
+> "Automate repetitive workflows to focus purely on core development."
 
 ---
 
 ## ⚡ Key Features
 
 <table>
-  <tr>
-    <td width="50%">
-      <h3>🎯 Conclusion First</h3>
-      <p>Bypasses introductory pleasantries and rhetorical fluff, leading directly with critical status indicators and hard facts.</p>
-    </td>
-    <td width="50%">
-      <h3>🔍 Rigorous Inference</h3>
-      <p>Automatically bridges minor gaps in raw notes using domain context without halting execution for unnecessary clarifications.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3>⚠️ Risk Quantization</h3>
-      <p>Explicitly categorizes operational, financial, and timeline impacts using standardized <strong>[High]</strong> / <strong>[Medium]</strong> / <strong>[Low]</strong> tags.</p>
-    </td>
-    <td width="50%">
-      <h3>🛠️ Actionable Workarounds</h3>
-      <p>Delivers clear optimal solutions, fallback paths (Workarounds), and concrete immediate next steps to maintain velocity.</p>
-    </td>
-  </tr>
+<tr>
+<td width="50%">
+  <h3>🔄 Auto-Sync & Update</h3>
+  <p>Automatically checks for updates and forcefully reinstalls the latest version of SkillSpector using <code>uv</code>.</p>
+</td>
+<td width="50%">
+  <h3>🛡️ Automated Security Scan</h3>
+  <p>Configures local Ollama parameters and runs targeted security scans across the workspace[cite: 1].</p>
+</td>
+</tr>
 </table>
 
 ---
 
-## 📋 Output Structure
+## 📋 Prerequisites
 
-Every generated briefing strictly adheres to a consistent, professional 6-section layout:
-
-1. **Current Status**: 1–2 concise sentences summarizing the latest operational baseline.
-2. **Active Tasks**: Bulleted list of workstreams currently in progress.
-3. **Why It Matters**: Core business, architectural, or strategic driver.
-4. **Blockers & Issues**: Specific bottlenecks or technical constraints encountered.
-5. **Impact of Inaction**: Risk level assessment and quantified consequences if stalled.
-6. **Alternative Solutions**: Option A (Optimal), Option B (Workaround), and Recommended Next Step.
+Before running the PowerShell scripts in this branch, ensure your environment has the following tools installed:
+* **PowerShell** (v7.x or higher recommended)
+* **uv** (An extremely fast Python package and tool installer)
+* **Ollama** (Required if running local model scans)
 
 ---
 
-## 📦 Installation & Quick Start
+## ⚙️ Commands Reference
 
-1. Clone this repository using your specified branch:
-   ```bash
-   git clone -b AI-Skill-Project_Status_Briefing [https://github.com/KingsleyHK0323/KingsleyHK0323.git](https://github.com/KingsleyHK0323/KingsleyHK0323.git)
+The current scripts included in this branch are structured below:
+
+<details>
+<summary><b>1. AI.ps1 — Full Environment Sync & Scan (with Ollama Configuration)</b>[cite: 1]</summary>
+
+```powershell
+# 1. Automatically check for and update SkillSpector (sync with the latest version from GitHub)
+Write-Host "Checking for SkillSpector updates..." -ForegroundColor Cyan
+uv tool install --force 'skillspector[mcp] @ git+[https://github.com/NVIDIA/SkillSpector.git](https://github.com/NVIDIA/SkillSpector.git)'
+
+# 2. Set Ollama parameter environment variables
+$env:SKILLSPECTOR_PROVIDER="openai"
+$env:SKILLSPECTOR_BASE_URL="http://localhost:11434/v1"
+$env:SKILLSPECTOR_MODEL="qwen2.5-coder:7b"
+
+# 3. Perform a security scan
+Write-Host "Running SkillSpector scan..." -ForegroundColor Green
+skillspector scan ./
