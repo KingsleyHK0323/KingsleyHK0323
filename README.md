@@ -37,6 +37,12 @@ Software developer focused on system utilities, runtime game modifications, netw
 
 ### Featured Projects
 
+#### AI Agent Skills
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **[AI-Skill-GitHub_README_HTML_Architect](https://github.com/KingsleyHK0323/KingsleyHK0323/tree/AI-Skill-GitHub_README_HTML_Architect)** | Custom agent skill module for generating structured, web-grade GitHub `README.md` layouts using sanitized HTML grids and collapsible blocks. | `Markdown` `HTML` `SKILL.md` |
+| **[AI-Skill-Project_Status_Briefing](https://github.com/KingsleyHK0323/KingsleyHK0323/tree/AI-Skill-Project_Status_Briefing)** | Custom agent skill module for transforming raw development notes and fragmented updates into risk-weighted executive briefings. | `Markdown` `SKILL.md` |
+
 #### Tools & Utilities
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
