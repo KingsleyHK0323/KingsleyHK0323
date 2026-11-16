@@ -1,46 +1,75 @@
 ---
-name: project-status-briefing
-description: Transform raw notes, fragmented project updates, or technical status into a rigorous, risk-weighted executive briefing. Use automatically when the user asks to create a status report, project update, progress report, summary briefing, or pastes raw work notes for structuring. Make By KingsleyHK0323
+name: automating-github-repositories
+description: Automate GitHub repositories using GitHub Actions, CI/CD, scheduled cron jobs, automated repository maintenance, dependency updates, and dynamic documentation generation. Use when AI agents or users need to implement, configure, or execute GitHub automation workflows.
 ---
 
-# Project Status Briefing
+# Automating GitHub Repositories
 
-A professional decision-oriented reporting engine that transforms raw project updates, technical notes, or fragmented operational status into a rigorous, risk-weighted executive briefing entirely in English.
+## Overview
+This skill defines standardized workflows, pipeline templates, and maintenance automation patterns for GitHub repositories. It enables AI agents to autonomously design, validate, and integrate GitHub Actions workflows.
 
-## Execution Principles
+---
 
-1. **Conclusion First**: Lead with direct status indicators and critical facts. Eliminate all conversational filler, introductory pleasantries, and rhetorical acknowledgments.
-2. **Rigorous Inference**: If inputs lack explicit details for secondary dimensions (such as impact of inaction or alternative workarounds), derive logical technical or operational implications based on the domain context. Never stop to ask clarifying questions unless the input is completely devoid of recognizable context.
-3. **Risk-Quantified Impact**: Explicitly categorize the operational and financial risk of inaction using strict tags: **[High]**, **[Medium]**, or **[Low]**.
-4. **Actionable Workarounds**: Provide concrete, deployable Plan B alternatives for any active blockers to ensure continuous forward momentum.
-5. **Zero Omission**: All six output sections must be generated in every execution. Do not merge or skip any section.
+## Core Automation Capabilities
 
-## Output Structure
+### 1. Continuous Integration & Continuous Deployment (CI/CD)
+* **Automated Testing & Linting**: Trigger pipelines on `push` or `pull_request` to run unit tests, integration checks, and linters (ESLint, Prettier, Flake8).
+* **Builds & Cross-Compilation**: Compile source code, build multi-architecture Docker images, or package binaries across Linux, Windows, and macOS runners.
+* **Continuous Deployment**:
+  * Automatically publish static sites or documentation to GitHub Pages.
+  * Push web applications or backend services to target platforms (Vercel, Cloudflare Pages, AWS, Azure, GCP).
 
-The output must strictly follow this structured format:
+### 2. Scheduled Jobs & Data Scraping (Cron)
+* **Scheduled Data Fetching**: Use cron schedules (`schedule: - cron: '0 0 * * *'`) to execute data processing or web-scraping scripts (Python/Node.js) and automatically commit changes back to the repository.
+* **Automated Telemetry & Notifications**: Query external APIs (finance, RSS, system health) and forward structured summaries to communication channels (Discord, Telegram, Slack, Email).
+* **Sync & Backup**: Periodically mirror external repositories, back up database dumps, or run automated maintenance tasks.
 
-### 1. Current Status
-- One to two concise sentences summarizing the latest milestone, operational baseline, or overall health of the task.
+### 3. Repository Maintenance & Collaboration
+* **Issue & PR Triage**: Automatically assign labels, route reviewers, or post welcome comments on new issues and pull requests.
+* **Dependency Management**: Integrate Dependabot or Renovate configurations to automatically scan and open update PRs for vulnerable or outdated packages.
+* **Code Formatting Enforcement**: Utilize automated pre-commit hooks or GitHub Actions to auto-format and commit styling fixes.
 
-### 2. Active Tasks
-- Bulleted list of technical or operational workstreams currently in progress.
+### 4. Dynamic Documentation Generation
+* **API Documentation**: Generate or update API documentation from code annotations on every push to the main branch.
+* **Dynamic README Updates**: Insert real-time repository stats, metrics, or recent activity feeds into `README.md` via scheduled workflows.
 
-### 3. Why It Matters
-- The core business, architectural, or strategic driver behind the task.
+---
 
-### 4. Blockers & Issues
-- Specific bottlenecks, dependency constraints, or technical errors encountered (state "None" if nominal).
+## Standard Workflow Template
 
-### 5. Impact of Inaction
-- **Risk Level**: [High / Medium / Low]
-- Quantified operational, financial, or timeline consequences if the initiative stalls or is abandoned.
+When asked to create an automated repository workflow, use the following production-ready template located at `.github/workflows/automation.yml`:
 
-### 6. Alternative Solutions
-- **Option A (Optimal Solution)**: [Specific implementation approach, advantages, and trade-offs]
-- **Option B (Workaround / Fallback)**: [Specific bypass route and associated cost]
-- **Recommended Next Step**: [The immediate concrete action to take right now]
+```yaml
+name: Automated Repository Sync and Task
+on:
+  schedule:
+    - cron: '0 8 * * *' # Daily at 08:00 UTC
+  workflow_dispatch:
 
-## Gotchas
-- Maintain an objective, authoritative tone without softening critique.
-- Ensure all outputs, headings, and bullet points are strictly in English.
-- If raw notes are messy or unstructured, parse them intelligently into the 6-part framework without demanding a rewrite from the user.
+jobs:
+  execute-automation:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set Up Python Environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run Automation Script
+        run: python scripts/main.py
+
+      - name: Commit and Push Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: autonomous repository update via workflow"
+          branch: main
